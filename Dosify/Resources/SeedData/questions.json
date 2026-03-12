@@ -1,0 +1,68 @@
+[
+  {
+    "id": "AAAAAAA1-AAAA-AAAA-AAAA-AAAAAAAAAAA1",
+    "prompt": "Que farmaco se usa como broncodilatador de accion rapida?",
+    "mode": "multipleChoice",
+    "difficulty": "easy",
+    "system": "respiratory",
+    "category": "emergencySupport",
+    "correctAnswer": "Salbutamol",
+    "options": ["Budesonida", "Salbutamol", "Enalapril", "Diazepam"],
+    "explanation": "Salbutamol actua rapidamente sobre receptores beta-2 y es util en broncoespasmo."
+  },
+  {
+    "id": "AAAAAAA2-AAAA-AAAA-AAAA-AAAAAAAAAAA2",
+    "prompt": "Empareja el corticoide inhalado con control mantenido del asma.",
+    "mode": "matching",
+    "difficulty": "easy",
+    "system": "respiratory",
+    "category": "diseaseControl",
+    "correctAnswer": "Budesonida",
+    "options": ["Nitroglicerina", "Budesonida", "Paracetamol", "Diazepam"],
+    "explanation": "Budesonida no resuelve la crisis aguda, pero reduce inflamacion cronica."
+  },
+  {
+    "id": "AAAAAAA3-AAAA-AAAA-AAAA-AAAAAAAAAAA3",
+    "prompt": "Cual de estos farmacos pertenece al grupo de los IECAs?",
+    "mode": "multipleChoice",
+    "difficulty": "medium",
+    "system": "cardiovascular",
+    "category": "diseaseControl",
+    "correctAnswer": "Enalapril",
+    "options": ["Enalapril", "Salbutamol", "Paracetamol", "Diazepam"],
+    "explanation": "Enalapril inhibe la enzima convertidora de angiotensina."
+  },
+  {
+    "id": "AAAAAAA4-AAAA-AAAA-AAAA-AAAAAAAAAAA4",
+    "prompt": "Que farmaco se emplea para aliviar la angina por vasodilatacion?",
+    "mode": "matching",
+    "difficulty": "medium",
+    "system": "cardiovascular",
+    "category": "symptomRelief",
+    "correctAnswer": "Nitroglicerina",
+    "options": ["Budesonida", "Nitroglicerina", "Enalapril", "Diazepam"],
+    "explanation": "Nitroglicerina reduce demanda miocardica de oxigeno y alivia dolor anginoso."
+  },
+  {
+    "id": "AAAAAAA5-AAAA-AAAA-AAAA-AAAAAAAAAAA5",
+    "prompt": "Que precaucion principal exige el paracetamol?",
+    "mode": "multipleChoice",
+    "difficulty": "easy",
+    "system": "nervous",
+    "category": "symptomRelief",
+    "correctAnswer": "No superar la dosis maxima diaria",
+    "options": ["No superar la dosis maxima diaria", "Usarlo solo por via inhalada", "Mezclarlo con nitratos", "Evitarlo por su tos seca"],
+    "explanation": "El riesgo clave es hepatotoxicidad si se supera la dosis recomendada."
+  },
+  {
+    "id": "AAAAAAA6-AAAA-AAAA-AAAA-AAAAAAAAAAA6",
+    "prompt": "Que efecto adverso obliga a vigilar diazepam en un contexto agudo?",
+    "mode": "multipleChoice",
+    "difficulty": "hard",
+    "system": "nervous",
+    "category": "emergencySupport",
+    "correctAnswer": "Depresion respiratoria",
+    "options": ["Hiperglucemia", "Depresion respiratoria", "Broncoespasmo", "Tos seca"],
+    "explanation": "Las benzodiacepinas pueden comprometer respiracion y nivel de consciencia."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "11111111-1111-1111-1111-111111111111",
+    "name": "Salbutamol",
+    "system": "respiratory",
+    "category": "emergencySupport",
+    "summary": "Broncodilatador de accion rapida usado en broncoespasmo.",
+    "mechanism": "Agonista beta-2 que relaja musculo liso bronquial.",
+    "uses": ["Crisis asmatica", "Broncoespasmo inducido por esfuerzo"],
+    "notes": ["Vigilar temblor y taquicardia", "Uso frecuente indica mal control"]
+  },
+  {
+    "id": "22222222-2222-2222-2222-222222222222",
+    "name": "Budesonida",
+    "system": "respiratory",
+    "category": "diseaseControl",
+    "summary": "Corticoide inhalado para control mantenido del asma.",
+    "mechanism": "Reduce inflamacion de la via aerea y la hiperreactividad bronquial.",
+    "uses": ["Asma persistente", "Prevencion de exacerbaciones"],
+    "notes": ["No alivia crisis agudas", "Enjuague bucal tras inhalacion"]
+  },
+  {
+    "id": "33333333-3333-3333-3333-333333333333",
+    "name": "Enalapril",
+    "system": "cardiovascular",
+    "category": "diseaseControl",
+    "summary": "IECA empleado en hipertension e insuficiencia cardiaca.",
+    "mechanism": "Disminuye la conversion de angiotensina I en II.",
+    "uses": ["Hipertension arterial", "Insuficiencia cardiaca"],
+    "notes": ["Controlar tension y funcion renal", "Puede provocar tos seca"]
+  },
+  {
+    "id": "44444444-4444-4444-4444-444444444444",
+    "name": "Nitroglicerina",
+    "system": "cardiovascular",
+    "category": "symptomRelief",
+    "summary": "Vasodilatador utilizado para aliviar angina.",
+    "mechanism": "Libera oxido nitrico y disminuye precarga cardiaca.",
+    "uses": ["Angina estable", "Dolor toracico isquemico"],
+    "notes": ["Vigilar hipotension", "Contraindicada con inhibidores PDE-5"]
+  },
+  {
+    "id": "55555555-5555-5555-5555-555555555555",
+    "name": "Paracetamol",
+    "system": "nervous",
+    "category": "symptomRelief",
+    "summary": "Analgesico y antipiretico de uso comun.",
+    "mechanism": "Modula vias centrales del dolor y la temperatura.",
+    "uses": ["Fiebre", "Dolor leve o moderado"],
+    "notes": ["Atencion a dosis maxima diaria", "Precaucion en hepatopatia"]
+  },
+  {
+    "id": "66666666-6666-6666-6666-666666666666",
+    "name": "Diazepam",
+    "system": "nervous",
+    "category": "emergencySupport",
+    "summary": "Benzodiacepina para ansiedad aguda, convulsiones y sedacion.",
+    "mechanism": "Potencia la accion inhibitoria del GABA.",
+    "uses": ["Crisis convulsiva", "Ansiedad aguda", "Sedacion"],
+    "notes": ["Riesgo de depresion respiratoria", "Valorar somnolencia y dependencia"]
+  }
+]

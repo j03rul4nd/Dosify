@@ -12,7 +12,9 @@ import SwiftData
 struct DosifyApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            UserProgress.self,
+            QuestionHistory.self,
+            FavoriteDrug.self,
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 

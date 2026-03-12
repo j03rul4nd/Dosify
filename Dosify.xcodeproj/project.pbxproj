@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXContainerItemProxy section */
+		B1C2D3EC2F62082B0021A6F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C4DE5BB2F62082B0021A6F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C4DE5C22F62082B0021A6F9;
+			remoteInfo = Dosify;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		8C4DE5C32F62082B0021A6F9 /* Dosify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dosify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1C2D3E42F62082B0021A6F9 /* DosifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DosifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +27,22 @@
 			path = Dosify;
 			sourceTree = "<group>";
 		};
+		B1C2D3E52F62082B0021A6F9 /* DosifyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = DosifyTests;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8C4DE5C02F62082B0021A6F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C2D3EA2F62082B0021A6F9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				8C4DE5C52F62082B0021A6F9 /* Dosify */,
+				B1C2D3E52F62082B0021A6F9 /* DosifyTests */,
 				8C4DE5C42F62082B0021A6F9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				8C4DE5C32F62082B0021A6F9 /* Dosify.app */,
+				B1C2D3E42F62082B0021A6F9 /* DosifyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,6 +95,29 @@
 			productReference = 8C4DE5C32F62082B0021A6F9 /* Dosify.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B1C2D3E62F62082B0021A6F9 /* DosifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1C2D3F12F62082B0021A6F9 /* Build configuration list for PBXNativeTarget "DosifyTests" */;
+			buildPhases = (
+				B1C2D3E92F62082B0021A6F9 /* Sources */,
+				B1C2D3EA2F62082B0021A6F9 /* Frameworks */,
+				B1C2D3EB2F62082B0021A6F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1C2D3EE2F62082B0021A6F9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B1C2D3E52F62082B0021A6F9 /* DosifyTests */,
+			);
+			name = DosifyTests;
+			packageProductDependencies = (
+			);
+			productName = DosifyTests;
+			productReference = B1C2D3E42F62082B0021A6F9 /* DosifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -82,6 +130,10 @@
 				TargetAttributes = {
 					8C4DE5C22F62082B0021A6F9 = {
 						CreatedOnToolsVersion = 26.3;
+					};
+					B1C2D3E62F62082B0021A6F9 = {
+						CreatedOnToolsVersion = 26.3;
+						TestTargetID = 8C4DE5C22F62082B0021A6F9;
 					};
 				};
 			};
@@ -100,12 +152,20 @@
 			projectRoot = "";
 			targets = (
 				8C4DE5C22F62082B0021A6F9 /* Dosify */,
+				B1C2D3E62F62082B0021A6F9 /* DosifyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8C4DE5C12F62082B0021A6F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1C2D3EB2F62082B0021A6F9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -122,7 +182,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B1C2D3E92F62082B0021A6F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1C2D3EE2F62082B0021A6F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C4DE5C22F62082B0021A6F9 /* Dosify */;
+			targetProxy = B1C2D3EC2F62082B0021A6F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		8C4DE5CE2F62082D0021A6F9 /* Debug */ = {
@@ -306,6 +381,55 @@
 			};
 			name = Release;
 		};
+		B1C2D3EF2F62082B0021A6F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FBD-Care.DosifyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dosify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dosify";
+				TEST_TARGET_NAME = Dosify;
+			};
+			name = Debug;
+		};
+		B1C2D3F02F62082B0021A6F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "FBD-Care.DosifyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dosify.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Dosify";
+				TEST_TARGET_NAME = Dosify;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -323,6 +447,15 @@
 			buildConfigurations = (
 				8C4DE5D12F62082D0021A6F9 /* Debug */,
 				8C4DE5D22F62082D0021A6F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1C2D3F12F62082B0021A6F9 /* Build configuration list for PBXNativeTarget "DosifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1C2D3EF2F62082B0021A6F9 /* Debug */,
+				B1C2D3F02F62082B0021A6F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
